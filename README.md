@@ -1,16 +1,8 @@
 # meal_trainer
 
-A new Flutter project.
+ This App along with a scale forms a treatment method for nonintuitive eating behavior connected with multiple eating disorders.
+ Original approach: https://mando.se/en/
+ Previous prototype (core): https://github.com/d4l-w4r/MealTrainer-Core
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Code Generation
+This project uses build_runner to generate Type Adapters used by HiveDB. Whenever classes with Hive annotations (so far only in meal.dart) are changed, before committing rerun build_runner with command `dart run build_runner build` to apply the changes. Keep in mind that they might render DB entries created before unreadable.

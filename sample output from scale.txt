@@ -1,0 +1,7 @@
+{"title":"waage","comment":"","ota":false,"log":true,"lang":"en"}
+{"id":"sensor-uem_waage","name":"uem waage","value":-183059,"state":"-183059","icon":"mdi:scale"}
+[D][hx711:031]: 'uem waage': Got value -183210
+[D][sensor:094]: 'uem waage': Sending state -183210.00000  with 0 decimals of accuracy
+{"id":"sensor-uem_waage","value":-183210,"state":"-183210"}
+
+
